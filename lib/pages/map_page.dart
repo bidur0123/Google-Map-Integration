@@ -41,7 +41,7 @@ class _MapPageState extends State<MapPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Google Map"),
+        title: const Text("Google Map"),
       ),
       body: _currentP == null
           ? const Center(
