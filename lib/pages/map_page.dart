@@ -40,6 +40,9 @@ class _MapPageState extends State<MapPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text("Google Map"),
+      ),
       body: _currentP == null
           ? const Center(
               child: CircularProgressIndicator(
